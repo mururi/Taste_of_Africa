@@ -5,8 +5,70 @@
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
+  color: white;
 }
 
+.container {
+  height: 100vh;
+  background-color: #212121;
+  padding: 30px 0;
+}
 .container h1 {
   font-family: 'Marck Script', cursive;
+  color: #FCC20F;
+  font-size: 100px;
+  text-align: center;
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: -25px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 5%;
+  gap: 100px;
+}
+
+.recipes {
+  width: 350px;
+  height: 600px;
+  background-color: #282828;
+  border-radius: 20px;
+  box-shadow: 1px 3px 5px black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.recipe-image img {
+  width: 250px;
+  padding-top: 10px;
+}
+
+.recipes h3 {
+  font-size: 24px;
+  color: #FCC20F;
+  padding: 20px 0 15px 0;
+}
+
+.recipes p {
+  font-weight: 500;
+}
+
+.recipes a {
+  text-decoration: none;
+  padding: 50px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: ease-in-out 250ms;
+}
+
+.recipes a:hover {
+  color: #FCC20F;
 }
