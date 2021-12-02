@@ -18,6 +18,7 @@
   color: #FCC20F;
   font-size: 100px;
   text-align: center;
+  text-shadow: 2px 4px 7px black;
 }
 
 .container h2 {
@@ -66,6 +67,7 @@
   padding: 50px 0px;
   font-size: 20px;
   font-weight: 600;
+  color: #969493;
   transition: ease-in-out 250ms;
 }
 
