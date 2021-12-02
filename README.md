@@ -12,7 +12,7 @@ This is an African recipes website that displays an array of delicious African r
 Ensure that your device of choice has a browser installed.
 Click the link provided below to view the site.
 
-
+https://mururi.github.io/taste_of_africa/
 
 ## Technologies Used 
 * HTML - This was used to build the structure of the web pages.
